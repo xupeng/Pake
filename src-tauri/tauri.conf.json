@@ -1,16 +1,16 @@
 {
 	"package": {
-	  "productName": "WeRead",
+	  "productName": "Strava",
 	  "version": "1.0.0"
 	},
 	"tauri": {
 	  "windows": [
 		{
-		  "url": "https://weread.qq.com/",
-		  "transparent": true,
+		  "url": "https://www.strava.com/",
+		  "transparent": false,
 		  "fullscreen": false,
-		  "width": 1200,
-		  "height": 780,
+		  "width": 6000,
+		  "height": 6000, 
 		  "resizable": true
 		}
 	  ],
@@ -28,4 +28,3 @@
 	  "beforeDevCommand": ""
 	}
   }
-  
