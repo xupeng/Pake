@@ -1,13 +1,13 @@
 {
 	"package": {
-	  "productName": "WeRead",
+	  "productName": "intervals",
 	  "version": "1.0.0"
 	},
 	"tauri": {
 	  "windows": [
 		{
-		  "url": "https://weread.qq.com/",
-		  "transparent": true,
+		  "url": "https://intervals.icu/",
+		  "transparent": false,
 		  "fullscreen": false,
 		  "width": 1200,
 		  "height": 780,
@@ -28,4 +28,3 @@
 	  "beforeDevCommand": ""
 	}
   }
-  

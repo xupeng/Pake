@@ -34,6 +34,10 @@ const ctrlKeyShortcuts = {
 window.addEventListener("DOMContentLoaded", (_event) => {
   const style = document.createElement("style");
   style.innerHTML = `
+    * {
+      font-family: "Caecilia LT Std", "PingFang SC", "STHeiti";
+      font-weight: bold;
+    }
     #page #footer-wrapper,
     .drawing-board .toolbar .toolbar-action,
     .c-swiper-container,
